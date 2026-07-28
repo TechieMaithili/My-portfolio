@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math Object</title>
+</head>
+<body>
+	<script>
+		function calcCF()
+		{
+			var n = Number(prompt("Enter a number: "));
+			alert("Ceiling Value of " + n + " = " +Math.ceil(n) + '\n' +
+				"Floor Value of " +n+ " = " +Math.floor(n));
+		}
+		function calcRnd()
+		{
+			var n = Number(prompt("Enter a number: "));
+			alert("Rounded Value of " +n+ " = "+Math.round(n));
+		}
+		function calcPower()
+		{
+			var x = parseInt(f1.t1.value);
+			var y = parseInt(f1.t2.value);
+			alert(x + " to the power " + y + " = " + Math.pow(x,y));
+		}
+		function calcSqrt()
+		{
+			var n = Number(prompt("Enter a number: "));
+			alert("Square Root of " + n + " = " +Math.sqrt(n));
+		}
+	</script>
+	<form name="f1">
+		<p><input type="button" value="Ceil_Floor" onClick = "calcCF()"></p>
+		<p><input type="button" value="Round" onClick = "calcRnd()"></p>
+		<input type="button" value="Sqaure Root" onClick = "calcSqrt()">
+		<p>Value1: <input type="text" name="t1">
+			Value2 : <input type="text" name="t2">
+		<p><input type="button" value="Power" onClick = "calcPower()">
+	</form>
+	
+
+</body>
+</html>
