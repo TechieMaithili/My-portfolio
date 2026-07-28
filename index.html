@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body style="background-color: blanchedalmond;">
+    <nav class="navbar sticky-top navbar-expand-md" style="background-color:#5c4033">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand"><span class="fw-bold text-white"><i
+                        class="bi bi-house-door-fill"></i> My Portfolio</span>
+
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav1"
+                aria-controls="nav1" aria-label="Toggle nav" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="nav1">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#about" class="nav-link text-white"><i
+                                class="bi bi-emoji-laughing"></i> About me</a></li>
+                    <li class="nav-item"><a href="#project" class="nav-link text-white"><i class="bi bi-files-alt"></i>
+                            Academic Projects</a></li>
+                    <li class="nav-item"><a href="#skill" class="nav-link text-white"><i
+                                class="bi bi-lightbulb-fill"></i> Skills</a></li>
+                    <li class="nav-item"><a href="#ach" class="nav-link text-white"><i class="bi bi-award-fill"></i>
+                            Achievements</a></li>
+                    <li class="nav-item"><a href="#edu" class="nav-link text-white"><i
+                                class="bi bi-mortarboard-fill"></i> Education</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link text-white"><i
+                                class="bi bi-briefcase-fill"></i> Services</a></li>
+                    <li class="nav-item"><a href="#testimonial" class="nav-link text-white"><i class="bi bi-chat-heart-fill"></i>Testimonials</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link text-white"><i
+                                class="bi bi-telephone-fill"></i> Contact Me</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <p class="display-1 text-start mt-5" style="color: #5c4033; font-weight: bold;"> I'm Maithili Suvarna
+                </p>
+                <p class="display-5"><b><i style="color: #8b5e3c;">- Aspiring Web And Software Developer</i></b>
+                </p>
+                <p style="color: #2c2c2c;">
+                <h5>A curious student, always wanting to learn, explore and grow more. While on the journey to becoming
+                    a skilled developer, I am eager to gain hands-on experience and work with real-world technologies.
+                </h5>
+                </p>
+                <button type="button" data-bs-toggle="modal" data-bs-target="#modalex"
+                    style="background-color: #5c4033;color:white; border:none;padding:10px 10px; width:200px;border-radius: 30px;"><i
+                        class="bi bi-rocket-takeoff-fill"></i>
+                    Let's Connect
+                </button>
+
+                <div class="modal fade" id="modalex" tabindex="-1" aria-labelledby="exmodal" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="md1">
+                                    <i class="bi bi-rocket-takeoff-fill"></i> Let's Connect
+                                </h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close">
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="lead">Have an idea, opportunity or project in mind? I'd love to hear about it
+                                    !</p>
+                                <div class="container-fluid mt-3">
+                                    <form>
+                                        <label class="form-label" id="name">Name</label>
+                                        <input type="text" class="form-control" id="name" name="n1"
+                                            placeholder="Your Name" required>
+                                        <label class="form-label mt-3" id="email">Email</label>
+                                        <input type="text" class="form-control" id="email" name="e1"
+                                            placeholder="you@example.com" required>
+                                        <label class="form-label mt-3">Contact No.</label>
+                                        <input type="tel" class="form-control" name="c1" placeholder="Your Contact no">
+                                        <label class="form-label mt-3">What would you like to discuss?</label>
+                                        <select class="form-control" name="w1">
+                                            <option selected value="1">Select an option</option>
+                                            <option value="2">Hiring Opportunity</option>
+                                            <option value="3">Freelance Project</option>
+                                            <option value="4">Collaboration</option>
+                                            <option value="5">Technical Discussion</option>
+                                            <option value="6">Mentorship</option>
+                                            <option value="7">Other</option>
+                                        </select>
+                                        <label class="form-label mt-3">Desired Outcome</label>
+                                        <textarea rows="5" class="form-control"
+                                            placeholder="What would you like to achieve?"></textarea>
+                                        <label class="form-label mt-3">When would you like to get started?</label>
+                                        <select class="form-control" name="w2">
+                                            <option selected value="1" class="bg-secondary">Select a timeline</option>
+                                            <option value="2">ASAP</option>
+                                            <option value="3">Within 2 weeks</option>
+                                            <option value="4">Within a month</option>
+                                            <option value="5">Just exploring ideas</option>
+                                        </select>
+
+
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn" data-bs-dismiss="modal"
+                                    style="background-color: #5c4033;color:white;">Close</button>
+                                <button type="submit" class="btn" style="background-color: #5c4033;color:white;">Send
+                                    Message</button>
+                            </div>
+                            </form>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-lg-6 col-md-12 mt-5">
+                <img src="assets/dp.jpg" alt="img" height="400px" width="400px" style="border-radius: 50%;"
+                    class="img-fluid float-end">
+            </div>
+        </div>
+    </div>
+    <section id="about">
+        <div class="container">
+            <p class="display-5 text-center mt-5 mx-5" style="color: #5c4033; font-weight: bold;">About Me</p>
+    <p class="h5 mx-5 my-5" style="color: #2c2c2c;">
+       I'm currently studying for a B.Sc. in Information Technology at M.L. Dahanukar College of Commerce, which is part of the University of Mumbai.
+
+I like building websites and software applications that are both useful and user-friendly. Through schoolwork and personal projects, I've gained skills in web technologies, programming, and problem-solving.
+</p>
+<p class="h5 mx-5" style="color: #2c2c2c;">
+     As I move forward in my studies, I am excited to get hands-on experience, work on real projects, and sharpen my technical skills. I aim to become a capable IT professional who can build meaningful digital solutions.
+
+    </p>
+
+        </div>
+         
+    </section>
+    <section id="project">
+        <div class="row p-5">
+            <div class="col-lg-4 col-md-12">
+                <div class="card" style=" background-color: #FFF8F0;
+    border: 2px solid #8B5E3C;
+    border-radius: 15px;">
+                    <h2 class="card-header py-2 text-center">Project 1</h2>
+                    <div class="card-body text-center py-5">
+                        <p class="h4  card-title"><i><b>Password Validation System</b></i></p>
+                        <p class="h5 mt-1 card-text" style="color: #2c2c2c;">
+                            - A password validation system that checks user input against predefined rules and provides
+                            real-time feedback.
+                        </p>
+                        <button type="button" class="btn mt-3"
+                            style="background-color: #5c4033;color:white; border:none;padding:10px 10px; width:200px;border-radius: 30px;"
+                            onclick="window.location.href='password.html'"><i class="bi bi-hand-index-thumb"></i> View
+                            Project</button>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item text-center"><b>Languages used:</b></li>
+                        <li class="list-group-item text-center">HTML</li>
+                        <li class="list-group-item text-center">JavaScript</li>
+                    </ul>
+                    <div>
+                        <h4 class="card-footer text-center">Created in Jan 2026 </h4>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="card" style=" background-color: #FFF8F0;
+    border: 2px solid #8B5E3C;
+    border-radius: 15px;">
+                    <h2 class="card-header py-2 text-center">Project 2</h2>
+                    <div class="card-body text-center py-5">
+                        <p class="h4  card-title"><i><b>Animation Showcase</b></i></p>
+                        <p class="h5 mt-1 card-text" style="color: #2c2c2c;">
+                            - A JavaScript-based application that demonstrates dynamic animations, including fade
+                            effects and shape transformations, through DOM manipulation and event handling.
+                        </p>
+                        <button type="button" class="btn mt-3"
+                            style="background-color: #5c4033;color:white; border:none;padding:10px 10px; width:200px;border-radius: 30px;"
+                            onclick="window.location.href='animate.html'"><i class="bi bi-hand-index-thumb"></i> View
+                            Project</button>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item text-center"><b>Languages used:</b></li>
+                        <li class="list-group-item text-center">HTML</li>
+                        <li class="list-group-item text-center">JavaScript</li>
+                        <li class="list-group-item text-center">Document Object Model</li>
+                    </ul>
+                    <div>
+                        <h4 class="card-footer text-center">Created in Jan 2026</h4>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="card" style=" background-color: #FFF8F0;
+    border: 2px solid #8B5E3C;
+    border-radius: 15px;">
+                    <h2 class="card-header py-2 text-center">Project 3</h2>
+                    <div class="card-body text-center py-5">
+                        <p class="h4  card-title"><i><b>Mathematical Functions Calculator</b></i></p>
+                        <p class="h5 mt-1 card-text" style="color: #2c2c2c;">
+                            - A web page which uses JavaScript to calculate certain mathematical values like Ceil and
+                            Floor , Power etc.
+                        </p>
+                        <button type="button" class="btn mt-3"
+                            style="background-color: #5c4033;color:white; border:none;padding:10px 10px; width:200px;border-radius: 30px;"
+                            onclick="window.location.href='math.html'"><i class="bi bi-hand-index-thumb"></i> View
+                            Project</button>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item text-center"><b>Languages used:</b></li>
+                        <li class="list-group-item text-center">HTML</li>
+                        <li class="list-group-item text-center">JavaScript</li>
+                    </ul>
+                    <div>
+                        <h4 class="card-footer text-center">Created in Feb 2026 </h4>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+    <section id="skill">
+        <p class="display-5 text-center mt-2 mx-5" style="color: #5c4033; font-weight: bold;">Skills</p>
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <p class="h4 mt-4"><b>Web Development</b>
+                <ul class="h5">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                    <li>JavaScript</li>
+                </ul>
+                </p>
+
+
+            </div>
+
+             <div class="col-lg-3 col-md-6">
+                <p class="h4 mt-4"><b>Programming</b> 
+                <ul class="h5">
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>Java</li>
+                </ul>
+                </p>
+
+
+            </div>
+
+             <div class="col-lg-3 col-md-6">
+                <p class="h4 mt-4"><b>DataBase</b>
+                <ul class="h5">
+                    <li>MySql</li>
+                    <li>SQL</li>
+                    <li>PL/SQL</li>
+                </ul>
+                </p>
+
+
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <p class="h4 mt-4"><b>Hardware</b>
+                <ul class="h5">
+                    <li>Digital Electronics</li>
+                    <li>Microprocessor</li>
+                </ul>
+                </p>
+
+        </div>
+    </div>
+ <section id="ach">
+        <div class="container">
+        <p class="display-5 text-center mt-5 mx-5" style="color: #5c4033; font-weight: bold;">Achievements</p>
+    <ul class="h4 mx-5 my-5 " style="color: #2c2c2c; list-style-type: none;">
+    <li class="text-center mb-5"><i><b>Ranked First in College for Two Consecutive Semesters in FY </b></i></li>
+    <li class="text-center  mb-5"><i><b>"O" Grade Academic Performance</b></i></li>
+    <li class="text-center mb-5"><i><b>Scored 94% At the HSC Examination</b></i></li>
+    <li class="text-center mb-5"><i><b>Ranked 5th in College at the HSC Examination </b></i></li>
+    
+    
+</ul>
+</div>
+    </section>
+
+    </section>
+    <section id="edu">
+        <div class="row">
+            <div class="col-12">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse1" aria-controls="collapse1" aria-expanded="true">
+                                FY in B.Sc.I.T
+                            </button>
+                        </h3>
+                        <div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="lead">
+                                    Ranked First for two consecutive semesters with "O" grade.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse2" aria-controls="collapse2" aria-expanded="true">
+                                Higher Seconday Examinations
+                            </button>
+                        </h3>
+                        <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="lead">
+                                    Ranked Fifth at College, ML Dahanukar College Of Commerce securing 94% at the HSC
+                                    examinations.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse3" aria-controls="collapse3" aria-expanded="true">
+                                Secondary School Certificate
+                            </button>
+                        </h3>
+                        <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="lead">
+                                    Completed schooling from ST. Teresa's Convent High School and Secured 90.20% at the
+                                    SSC examinations.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <div>
+            <p class="display-4 text-center mt-5">My Freelance Services</p>
+            <p class="lead text-center mt-2">Services offered for clients and startups</p>
+        </div>
+
+        <table class="table table-bordered border-secondary table-striped table-hover">
+            <tr class="table-dark">
+                <th>Service</th>
+                <th>Duration</th>
+                <th>Price</th>
+                <th>Avalibilty</th>
+            </tr>
+            <tr>
+                <td>Portfolio Website</td>
+                <td>5 days</td>
+                <td> &#8377 5000</td>
+                <td><span class="badge text-bg-success">Available</span></td>
+            </tr>
+            <tr>
+                <td>Landing Page Design</td>
+                <td>3 days</td>
+                <td> &#8377 3000</td>
+                <td><span class="badge text-bg-success">Available</span></td>
+            </tr>
+            <tr>
+                <td>Bootstrap Website</td>
+                <td>7 days</td>
+                <td>&#8377 7000</td>
+                <td><span class="badge text-bg-warning">Limited Slots</span></td>
+            </tr>
+            <tr>
+                <td>Website Redesign</td>
+                <td>10 days</td>
+                <td>&#8377 12000</td>
+                <td><span class="badge text-bg-danger">Booked</span></td>
+            </tr>
+        </table>
+
+    </section>
+
+    <section id="testimonial">
+        <div>
+            <p class="display-5 text-center mt-5" style="color: #5c4033; font-weight: bold;">Testimonials</p>
+        </div>
+        <div id="carousel1" class="carousel slide mt-3" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active"
+                    aria-label="slide 1"></button>
+                <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="slide 2"></button>
+                <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="slide 3"></button>
+                <button type="button" data-bs-target="#carousel1" data-bs-slide-to="3" aria-label="slide 4"></button>
+                <button type="button" data-bs-target="#carousel1" data-bs-slide-to="4" aria-label="slide 5"></button>
+
+
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 text-center">
+                                <img src="assets/img4.jpg" height="400px" width="400px" class=" rounded-circle d-block "
+                                    alt="img1">
+
+
+                            </div>
+                            <div class="col-lg-6" text-center>
+                                <p class="h5 mt-3" style="color: #2c2c2c;"><i>Having seen her grow up over the years, I
+                                        have always been impressed by her sincerity, dedication, and maturity. She is an
+                                        exceptionally hardworking, intelligent, and ambitious young girl who approaches
+                                        her studies and goals with remarkable focus and determination. What stands out
+                                        most about her is her genuine eagerness to learn and her willingness to put in
+                                        consistent effort to achieve what she sets her mind to. Despite her strong
+                                        ambitions, she remains deeply rooted in her culture and values, reflecting a
+                                        rare balance of modern aspirations and traditional grounding. Beyond her
+                                        academic excellence, she possesses a natural charm and simplicity that
+                                        effortlessly win people's hearts. Her positive attitude, disciplined nature, and
+                                        graceful personality make her a truly admirable young individual, and I have no
+                                        doubt that she is destined for a bright and successful future.</i></p>
+                                <p class="h5"><b><i style="color: #8b5e3c;">-Rawia International Healthcare Pvt Ltd.
+                                            Mrs. Mamta Jadhav
+                                            (Director)</i></b>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 text-center">
+                                <img src="assets/img3.jpg" height="400px" width="400px" class=" rounded-circle d-block "
+                                    alt="img1">
+
+
+                            </div>
+                            <div class="col-lg-6" text-center>
+                                <p class="h5 mt-5" style="color: #2c2c2c;"><i>Maithili is one of the most hardworking
+                                        and determined people I know. Her outstanding academic achievements are a
+                                        testament to her consistency, discipline, and commitment to her goals. Whatever
+                                        she takes on, she does with complete dedication and sincerity. Her passion and
+                                        perseverance are truly admirable. I wholeheartedly wish her nothing but success,
+                                        happiness, and the very best in all her future endeavors.</i></p>
+                                <p class="h5"><b><i style="color: #8b5e3c;">- Ananya Kotian(Friend, Student from SY
+                                            BBI)</i></b>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 text-center">
+                                <img src="assets/img1.jpg" height="400px" width="400px" class=" rounded-circle d-block "
+                                    alt="img1">
+
+
+                            </div>
+                            <div class="col-lg-6" text-center>
+                                <p class="h5 mt-5" style="color: #2c2c2c;"><i>Honestly Maithili is the sweetest and most
+                                        helpful person ever. Whenever I'm stuck with studies she always helps me out.
+                                        She’s just really clever and so supportive no matter what. She has the most
+                                        beautiful heart and is always kind to everyone. So lucky to have her around!</i>
+                                </p>
+                                <p class="h5"><b><i style="color: #8b5e3c;">- Sai More(Friend, Student from FY BSc
+                                            AI)</i></b>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div class="carousel-item" data-bs-interval="10000">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 text-center">
+                                <img src="assets/img5.jpg" height="400px" width="400px" class=" rounded-circle d-block "
+                                    alt="img1">
+
+
+                            </div>
+                            <div class="col-lg-6" text-center>
+                                <p class="h5 mt-5" style="color: #2c2c2c;"><i>Sweet as a person, A diva who hustles a
+                                        lot, kind and humble, graceful, loves to help others, always eager to be better,
+                                        sometimes under confident about herself, a beautiful soul, secret keeper,
+                                        partner in crime!</i></p>
+                                <p class="h5"><b><i style="color: #8b5e3c;">- Prathamesh Suvarna(Cousin, Intern at SR
+                                            Batliboi)</i></b>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+
+                <div class="carousel-item" data-bs-interval="10000">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 text-center">
+                                <img src="assets/img2.jpg" height="400px" width="400px" class=" rounded-circle d-block "
+                                    alt="img1">
+
+
+                            </div>
+                            <div class="col-lg-6" text-center>
+                                <p class="h5 mt-5" style="color: #2c2c2c;"><i>You are such a smart and wonderful person.
+                                        You are always there for me, so supportive and you always help me with
+                                        everything. You are so kind and caring. I’m really lucky to have a friend like
+                                        you</i></p>
+                                <p class="h5"><b><i style="color: #8b5e3c;">Prachi Jabre(Friend,Student from SY
+                                            ScIT)</i></b>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+            <button type="button" class="carousel-control-prev" data-bs-target="#carousel1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+
+            </button>
+            <button type="button" class="carousel-control-next" data-bs-target="#carousel1" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <p class="display-4 text-center mt-5">Explore To connect...</p>
+        <div class="container-fluid  mt-5">
+            <div class="row">
+                <div class="col-lg-3 col-md-2">
+                    <p class="lead ms-3"><b>Quick Links</b></p>
+                    <ul class="list-group">
+                        <a href="#about" class="list-group-item list-group-item-action">About me</a>
+                        <a href="#project" class="list-group-item list-group-item-action">Academic Projects</a>
+                        <a href="#ach" class="list-group-item list-group-item-action">Achievements</a>
+                        <a href="#skill" class="list-group-item list-group-item-action">Skills</a>
+                        <a href="#edu" class="list-group-item list-group-item-action">Education</a>
+                        <a href="#contact" class="list-group-item list-group-item-action">Contact Me</a>
+                        <li class="list-group-item list-group-item-action">
+                            <div>
+                                <p class="h4 text-start" style="color: #5c4033; font-weight: bold;">Maithili Suvarna
+                                </p>
+                                <p class="h6 text-start" style="color: #5c4033; font-weight: bold;">Email ID:
+                                    maithilisuvarna11@gmail.com
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="col-lg-9 col-md-10" style="border: 2px solid #8B5E3C;">
+                    <div class="row">
+                        <h4 class="mt-3">Contact Form</h4>
+                        <div class="col-lg-6 col-md-6">
+                            <input type="text" class="form-control" required placeholder="Your Name" id="name"
+                                name="n1">
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <input type="email" class="form-control" placeholder="Email" id="email" name="e1">
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-lg-12 col-md-12">
+                            <input type="tel" id="t1" name="tel1" required class="form-control"
+                                placeholder="Contact No.">
+                        </div>
+
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-lg-12 col-md-12">
+                            <textarea class="form-control mb-3" placeholder="Query" required rows="5"></textarea>
+                        </div>
+
+                    </div>
+                    <div class="container-fluid">
+                        <div class="row mt-3">
+                            <div class="col-lg-12 col-md-12">
+                                <button type="submit" class="btn text-center"
+                                    style="background-color: #5c4033;color:white; border:none;">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <div class="row">
+        <div class="col-lg-12 col-md-12">
+            <p class="lead text-center"style="color: #5c4033;font-weight:bold"><b><i class="bi bi-c-circle"></i> CopyRights Reserved @Maithili Suvarna Since 2026</b></p>
+            <p class="lead text-center"style="color: #5c4033;font-weight:bold"><b><i>Designed and Developed by Maithili Suvarna</i></b></p>
+        </div>
+    </div>
+
+
+
+ <script src="js/bootstrap.bundle.js"></script>
+
+</body>
+
+</html>
